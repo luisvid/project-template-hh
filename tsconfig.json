@@ -12,7 +12,7 @@
   "include": [
     "hardhat.config.ts",
     "./deploy",
-    "./test", 
+    "./test",
     "./scripts",
   ]
 }

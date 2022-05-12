@@ -20,7 +20,9 @@
     "ts-node": "^10.4.0",
     "typescript": "^4.5.5",
     "hardhat-abi-exporter": "^2.8.0",
-    "hardhat-gas-reporter": "^1.0.8"
+    "hardhat-gas-reporter": "^1.0.8",
+    "hardhat-contract-sizer": "^2.5.1",
+    "solidity-coverage": "^0.7.21"
   },
   "dependencies": {}
 }

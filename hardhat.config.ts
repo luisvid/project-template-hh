@@ -5,10 +5,18 @@ import 'hardhat-deploy-ethers';
 import '@primitivefi/hardhat-dodoc';
 import 'hardhat-gas-reporter';
 import 'hardhat-abi-exporter';
+import 'solidity-coverage';
+import 'hardhat-contract-sizer';
 
 const config: HardhatUserConfig = {
   solidity: {
     version: '0.8.9',
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200,
+      },
+    },
   },
   networks: {
     hardhat: {
@@ -34,7 +42,7 @@ const config: HardhatUserConfig = {
       97: '0xB5664e6278009bE57131a466750370898E1F72f7', // bsc testnet
       56: '', // bsc mainnet
     },
-    publisher: {
+    owner: {
       default: 1,
       3: '0x9A30EC0b6412649802542a881B71865197cc132D',
       97: '0x9A30EC0b6412649802542a881B71865197cc132D',
@@ -53,7 +61,7 @@ const config: HardhatUserConfig = {
     outputDir: './docs',
   },
   gasReporter: {
-    enabled: true,
+    enabled: false,
     currency: 'USD',
     coinmarketcap: 'a07c15b1-4a76-4976-b458-48944dc065d0',
     token: 'BNB',
@@ -61,7 +69,7 @@ const config: HardhatUserConfig = {
     showTimeSpent: true,
   },
   abiExporter: {
-    runOnCompile: true,
+    runOnCompile: false,
     clear: true,
     pretty: false,
   },
