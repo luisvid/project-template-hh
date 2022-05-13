@@ -7,6 +7,7 @@ import 'hardhat-gas-reporter';
 import 'hardhat-abi-exporter';
 import 'solidity-coverage';
 import 'hardhat-contract-sizer';
+import '@typechain/hardhat'
 
 const config: HardhatUserConfig = {
   solidity: {
