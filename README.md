@@ -1,1 +1,1 @@
-# hardhat-ts-template
+# 🎩 hardhat-ts-template
