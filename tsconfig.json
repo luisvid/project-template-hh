@@ -16,6 +16,7 @@
   "include": [
     "./scripts",
     "./test",
+    "./deploy",
     "./typechain-types"
   ],
   "files": [

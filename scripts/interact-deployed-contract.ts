@@ -32,8 +32,8 @@
 // // addresses and PKs of the involved accounts
 // const treasuryAddress = '0x64bE3609bfea95d53317243146C3a428709B1FA4';
 // const publisherAddres = '0x9A30EC0b6412649802542a881B71865197cc132D';
-// const publisher_pk = '4e8289ecae79b1c08229dc5732eac62ae2bd9eff43675adf71a37bad4d6e79ae';
-// const owner_pk = '605d85f2ff852eb5c7db38069752e721b46c697d78b031666ba9d8cf537d0a37';
+// const publisher_pk = '';
+// const owner_pk = '';
 // const user1 = '0x723a19676EF0f25989C4cD96E049013B400894d6';
 // const user2 = '0xc2A50A453031eece2bA552388930B9edAaE6F465';
 
@@ -45,7 +45,7 @@
 // const tokenBMock = '0xc5A0d466bB2AbF77129036eC623fDE892ED826a2';
 
 // // alchemy uri
-// const ETH_NODE_URI_ROPSTEN = 'https://eth-ropsten.alchemyapi.io/v2/CHTDj5jQYyRlYBvlHkRJF9Wq_psCL7yf';
+// const ETH_NODE_URI_ROPSTEN = 'https://eth-ropsten.alchemyapi.io/v2/...';
 // const provider = new ethers.providers.JsonRpcProvider(ETH_NODE_URI_ROPSTEN, 'ropsten');
 
 // // get the publisher and owner signer object so we can send transactions 
